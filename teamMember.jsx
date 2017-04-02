@@ -12,7 +12,7 @@ const TeamMember = React.createClass({
         return (
             <li>
                 <h2>{this.props.name}</h2>
-                <a href={this.props.email} style={{
+                <a href={'mailto:' + this.props.email} style={{
                     color: '#ff0099',
                     textDecoration: 'none'
                 }}>{this.props.email}</a>

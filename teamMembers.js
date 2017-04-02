@@ -1,6 +1,8 @@
 'use strict';
 
-const teamMembers = [
+const Immutable = require('immutable');
+
+const teamMembers = Immutable.List([
     {
         name: 'John Doe',
         email: 'john.doe@domain.com'
@@ -9,6 +11,6 @@ const teamMembers = [
         name: 'John Doersy',
         email: 'john.doersy@domain.com'
     }
-];
+]);
 
 module.exports = teamMembers;
