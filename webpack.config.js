@@ -4,7 +4,7 @@ const path = require('path');
 
 const configuration = {
     context: __dirname,
-    entry: './app.jsx',
+    entry: './client.js',
     output: {
         path: __dirname,
         filename: 'build.js'

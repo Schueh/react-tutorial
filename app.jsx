@@ -34,4 +34,4 @@ const App = React.createClass({
     }
 });
 
-ReactDOM.render(<App />, document.getElementById('reactApp'));
+module.exports = App;
